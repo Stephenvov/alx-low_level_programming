@@ -1,7 +1,11 @@
 #include <stdio.h>
-/* print Programming is like building a multilingual puzzle */
+/**
+ * main - Entry
+ * Description: Printing
+ * Return: 0 (success)
+ */
 int main(void)
 {
-        printf("with proper grammar, but the outcome is a piece of art,");
-        return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
