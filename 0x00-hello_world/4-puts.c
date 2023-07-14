@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *  main -  print Programming is like building
- *  return:0 (sucess)
+ * main -  Entry
+ * Description: print print Programming is like building
+ * Return:0 (success)
  */
 int main(void)
 {
