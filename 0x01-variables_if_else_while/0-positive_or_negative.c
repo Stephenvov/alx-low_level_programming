@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
- * main - Entry 
+ * main - Entry
  * Description: conditional statement
  * Return: 0 (success)
  */
