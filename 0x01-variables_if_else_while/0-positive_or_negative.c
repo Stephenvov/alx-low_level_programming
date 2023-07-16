@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/* 
+/*
  * main - If statement
+ * Description: conditional statement
  * Return: 0 (success)
- * */
+ */
 int main(void)
 {
 	int n;
