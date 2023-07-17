@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry
- * Description: a-z
+ * Description: a-z except q and e
  * Return: 0 (success)
  */
 int main(void)
