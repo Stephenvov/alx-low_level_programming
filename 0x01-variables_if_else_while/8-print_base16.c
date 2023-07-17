@@ -7,10 +7,11 @@
 int main(void)
 {
 	char x[] = "0123456789abcdef";
+	int y = 0;
 
-	while (x != 17)
+	while (y != 17)
 	{
-		putchar(x);
+		putchar(x[]);
 		x++;
 	}
 	putchar('\n');
