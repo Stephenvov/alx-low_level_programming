@@ -11,12 +11,12 @@ int main(void)
 
 	while (x != 'z')
 	{
-		putchar("%d", x);
+		putchar(x);
 		x++;
 	}
-	putchar("z");
+	putchar('z');
 	do {
-		putchar("%d", y);
+		putchar(y);
 		y++;
 	} while (y != 'Z')
 	return (0);

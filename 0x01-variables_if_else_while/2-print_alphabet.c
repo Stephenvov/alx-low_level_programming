@@ -10,9 +10,9 @@ int main(void)
 
 	while (x != 'z')
 	{
-		putchar("%d", x);
+		putchar(x);
 		x++;
 	}
-	putchar("z");
+	putchar('z');
 	return (0);
 }
