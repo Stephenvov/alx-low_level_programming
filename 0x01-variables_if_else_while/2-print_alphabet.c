@@ -8,7 +8,7 @@ int main(void)
 {
 	char x = 'a';
 
-	while (x != 'A')
+	while (x != '{')
 	{
 		putchar(x);
 		x++;
