@@ -10,7 +10,7 @@ int main(void)
 
 	while (x != '{')
 	{
-		if (x == 'p' || x == 'e')
+		if (x == 'q' || x == 'e')
 		{
 			x++;
 		}
