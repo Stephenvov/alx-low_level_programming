@@ -17,9 +17,7 @@ int main(void)
 	do {
 		putchar(y);
 		y++;
-	} while (y != 'Z');
-	putchar(y);
-	y++;
-	putchar(y);
+	} while (y != '[');
+	putchar('\n');
 	return (0);
 }
