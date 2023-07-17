@@ -9,15 +9,15 @@ int main(void)
 	char x = 'a';
 	char y = 'A';
 
-	while (x != 'z')
+	while (x != '{')
 	{
 		putchar(x);
 		x++;
 	}
-	putchar('z');
 	do {
 		putchar(y);
 		y++;
 	} while (y != 'Z');
+	putchar(y);
 	return (0);
 }
