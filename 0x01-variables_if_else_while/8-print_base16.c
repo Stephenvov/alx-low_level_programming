@@ -11,8 +11,8 @@ int main(void)
 
 	while (y != 17)
 	{
-		putchar(x[]);
-		x++;
+		putchar(x[y]);
+		y++;
 	}
 	putchar('\n');
 	return (0);
