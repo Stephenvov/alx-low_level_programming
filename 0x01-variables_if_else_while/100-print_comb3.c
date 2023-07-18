@@ -8,15 +8,24 @@
 int main(void)
 {
 	int i;
+	int x = 0;
 
 	for (i = 0; i < 90; i++)
 	{
-		putchar('0' + (i/10));
-		putchar ('0' + (i%10));
-		if (i != 89)
+		if (i % 10 == 0)
 		{
-			putchar (',');
-			putchar (' ');
+			i = i + x;
+			x++;
+		}
+		else
+		{
+			putchar('0' + (i / 10));
+			putchar('0' + (i % 10));
+			if (i != 89)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
