@@ -20,7 +20,8 @@ int main(void)
 			putchar ('0');
 			putchar (i + '0');
 		}
-		putchar (", ");
+		if (i == 89)
+			putchar (",");
 	}
 	putchar('\n');
 	return (0);
