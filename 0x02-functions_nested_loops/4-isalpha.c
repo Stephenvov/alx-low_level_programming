@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _islower - entry
+ * _isalpha - entry
  * @c: Description of parameter c
  * Description: check if islower
  * Return: 0
 */
-int _islower(int c)
+int _isalpha(int c)
 {
 	int x = c;
 
