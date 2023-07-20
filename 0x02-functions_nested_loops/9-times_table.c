@@ -8,10 +8,11 @@ void times_table(void)
 {
 	int x = 0;
 	int i = 0;
+	int y = 0;
 
 	while (x < 10)
 	{
-		while (i < 10)
+		while (y < 10)
 		{
 			if (i > 9)
 			{
@@ -25,6 +26,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			i = i + x;
+			y++;
 		}
 		_putchar('\n');
 		i = 0;
