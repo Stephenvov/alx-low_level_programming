@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * print_last_digit - Entry
  * Description: print_last_digit
  * @x: input value
@@ -11,9 +11,17 @@ int print_last_digit(int x)
 
 	if (x < 0)
 	{
-		x = x*-1;
+		x = x * -1;
+		y = x % 10;
 	}
-	y = x%10;
-	_putchar('0' + y);
-	return (y);
+	else if (x < 10)
+	{
+		y = x;
+	}
+	else
+	{
+		y = x % 10;
+	}
+		_putchar('0' + y);
+		return (y);
 }
