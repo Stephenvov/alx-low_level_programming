@@ -1,3 +1,10 @@
+#include "main.h"
+/**
+ * print_to_98 - Entry
+ * Description: print from n to 98
+ * @n: number from function
+ * Return: 0;
+ */
 void print_to_98(int n)
 {
 	while ( n < 99)
