@@ -4,7 +4,7 @@
  * Description: list of a-z
  * Return: success 0
  */
-int main(void)
+void print_alphabet(void)
 {	
 	char x = 'a';
 
