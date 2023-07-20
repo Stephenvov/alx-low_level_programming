@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * Main - Entry
- * Description: print_alphabet (a-z)
- * Return: success 0
+ * print_alphabet - Entry
+ * Description: printing a - z
+ * Return: 0 (success)
  */
 void print_alphabet(void)
 {
