@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - entry
- * @parameterc: Description of parameter c
+ * @c: Description of parameter c
  * Description: check if islower
  * Return: 0
 */
