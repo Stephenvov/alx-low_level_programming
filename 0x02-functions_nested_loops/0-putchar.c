@@ -4,7 +4,7 @@
  * Description: display _putchar
  * Return: 0 (success)
  */
-int _putchar(char x);
+int _putchar(char c);
 int main(void)
 {
 	_putchar('_');
