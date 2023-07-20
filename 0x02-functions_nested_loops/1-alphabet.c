@@ -5,8 +5,7 @@
  * Return: success 0
  */
 int main(void)
-{
-	int i;
+{	
 	char x = 'a';
 
 	while ( x == '{')
