@@ -6,11 +6,11 @@
  */
 void print_alphabet_x10(void)
 {
-	char x = 'a';
-	int i = 0;
-
 	while (i < 10)
 	{
+		char x = 'a';
+		int i = 0;
+
 		while (x != '{')
 		{
 			_putchar(x);
@@ -18,6 +18,5 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 		i++;
-		i = 0;
 	}
 }
