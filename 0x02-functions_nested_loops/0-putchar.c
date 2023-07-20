@@ -11,7 +11,7 @@ int main(void)
 	char x[] = "_putchar";
 	int i = 0;
 
-	while (i < sizeof(x)/sizeof(x[0]))
+	while (i < 8)
 	{
 		_putchar(x[i]);
 		i++;
