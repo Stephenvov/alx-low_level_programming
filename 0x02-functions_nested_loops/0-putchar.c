@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry
@@ -7,14 +8,14 @@
 int _putchar(char c);
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char x[] = "_putchar";
+	int i = 0;
+
+	while (i < sizeof(x)/sizeof(x[0]))
+	{
+		_putchar(x[i]);
+		i++;
+	}
 	_putchar('\n');
 	return (0);
 }
