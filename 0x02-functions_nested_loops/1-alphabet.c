@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * Main - Entry
- * Description: list of a-z
+ * Description: print_alphabet (a-z)
  * Return: success 0
  */
 void print_alphabet(void)
