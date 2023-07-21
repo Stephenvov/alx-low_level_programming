@@ -12,7 +12,7 @@ void print_to_98(int n)
 		if (n > 99)
 		{
 			_putchar(n / 100 + '0');
-			_putchsr((n % 100) % 10 + '0');
+			_putchar((n % 100) % 10 + '0');
 			_putchar(n % 10 + '0');
 		}
 		else
