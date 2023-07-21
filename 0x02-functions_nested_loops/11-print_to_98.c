@@ -7,11 +7,13 @@
  */
 void print_to_98(int n)
 {
-	while (n < 99)
+	while (n > 98 || n < 99)
 	{
-		if (n < 10)
+		if (n > 99)
 		{
-			_putchar(n + '0');
+			_putchar(n / 100 + '0');
+			_putchsr((n % 100) % 10 + '0');
+			_putchar(n % 10 + '0');
 		}
 		else
 		{
@@ -25,8 +27,15 @@ void print_to_98(int n)
 		}
 		else
 		{
-			_putchar('\n');
+			 _putchar('\n');
 		}
-		n++;
+		if (n > 99)
+		{
+			n--;
+		}
+		else
+		{
+			n++;
+		}
 	}
 }
