@@ -2,6 +2,7 @@
 /**
  * _isupper - Entry
  * Description: is uppercase
+ * @c: input value
  * Return: 0 success
  */
 int _isupper(int c)
