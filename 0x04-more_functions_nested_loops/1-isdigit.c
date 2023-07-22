@@ -3,7 +3,7 @@
  * _isdigit: Entry
  * Description: is digit
  * @c: input
- * Return: 0 success
+ * Return: 0 (success)
  */
 int _isdigit(int c)
 {
