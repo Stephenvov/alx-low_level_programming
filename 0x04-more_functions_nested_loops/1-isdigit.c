@@ -8,14 +8,12 @@
  */
 int _isdigit(int c)
 {
-	int x = c;
-
-	if (x > 9)
+	if (c <= 59 && c >= 48)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
