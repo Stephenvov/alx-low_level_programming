@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _isdigit: Entry
- * Description: is digit
- * @c: input
- * Return: 0 (success)
+ * _isdigit - Entry
+ * Description: checking is digit
+ * @c: input value
+ * Return: 0 success
  */
 int _isdigit(int c)
 {
