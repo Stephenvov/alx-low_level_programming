@@ -1,18 +1,21 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _isdigit - Entry
  * Description: checking is digit
  * @c: input value
- * Return: 0 success
+ * Return: 1 success
  */
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	int x = c;
+
+	if (x > 9)
 	{
-		return (1);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 }
