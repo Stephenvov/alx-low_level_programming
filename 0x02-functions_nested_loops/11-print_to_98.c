@@ -34,7 +34,7 @@ void print_to_98(int n)
 		if (n < -99)
 			print_num(n);
 		if (n >= 0 && n < 10)
-			print_num(n);
+		i	_putchar(n + '0');
 		else
 			print_num(n);
 		_putchar(',');
