@@ -28,7 +28,8 @@ void print_to_98(int n)
 	while (n < 98)
 	{
 		if (n < 0 && n > -10)
-			_putchar(-(n));
+			_putchar('-');
+			_putchar((n * -1));
 		if (n < -9)
 			print_num(n);
 		if (n >= 0 && n < 10)
