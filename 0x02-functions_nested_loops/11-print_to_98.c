@@ -29,9 +29,7 @@ void print_to_98(int n)
 	{
 		if (n < 0 && n > -10)
 			_putchar(-(n));
-		if (n < -9 && n > -100)
-			print_num(n);
-		if (n < -99)
+		if (n < -9)
 			print_num(n);
 		if (n >= 0 && n < 10)
 			_putchar(n + '0');
