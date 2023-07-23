@@ -13,14 +13,14 @@ void print_num(int n)
 	}
 	if (n <= 9 && n >= 0)
 	{
-
+		_putchar(n);
 	}
 	if (n <= 99 && n > 9)
 	{
 		_putchar(n / 10 + '0');
 		_putchar(n % 10 + '0');
 	}
-	else
+	if (n > 99)
 	{
 		_putchar(n / 100 + '0');
 		_putchar((n % 100) / 10 + '0');
