@@ -33,7 +33,7 @@ void print_to_98(int n)
 			print_num(n);
 		if (n < -99)
 			print_num(n);
-		if (n > 0 && n < 10)
+		if (n >= 0 && n < 10)
 			print_num(n);
 		else
 			print_num(n);
