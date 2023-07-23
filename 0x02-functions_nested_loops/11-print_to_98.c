@@ -13,7 +13,7 @@ void print_num(int n)
 	}
 	if (n <= 9 && n >= 0)
 	{
-		_putchar(n);
+		_putchar(n + '0');
 	}
 	if (n <= 99 && n > 9)
 	{
