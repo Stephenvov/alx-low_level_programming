@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * print_num - check priting, check if output is 2 digit or 3
  * print_to_98 - Entry Description: print from n to 98
  * @n: number from function
  */
@@ -10,7 +11,7 @@ void print_num(int n)
 		_putchar('-');
 		n = -(n);
 	}
-	if (n < 99)
+	if (n <= 99)
 	{
 		_putchar(n / 10 + '0');
 		_putchar(n % 10 + '0');
@@ -31,6 +32,10 @@ void print_to_98(int n)
 		if (n < -9 && n > -100)
 			print_num(n);
 		if (n < -99)
+			print_num(n);
+		if (n > 0 && n < 10)
+			_print_num(n);
+		else
 			print_num(n);
 		_putchar(',');
 		_putchar(' ');
