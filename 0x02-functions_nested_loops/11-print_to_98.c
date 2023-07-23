@@ -11,7 +11,11 @@ void print_num(int n)
 		_putchar('-');
 		n = -(n);
 	}
-	if (n <= 99)
+	if (n <= 9 && n >= 0)
+	{
+
+	}
+	if (n <= 99 && n > 9)
 	{
 		_putchar(n / 10 + '0');
 		_putchar(n % 10 + '0');
@@ -27,17 +31,7 @@ void print_to_98(int n)
 {
 	while (n < 98)
 	{
-		if (n < 0 && n > -10)
-		{
-			_putchar('-');
-			_putchar((n * -1));
-		}
-		if (n < -9)
-			print_num(n);
-		if (n >= 0 && n < 10)
-			_putchar(n + '0');
-		if (n > 9)
-			print_num(n);
+		print_num(n);
 		_putchar(',');
 		_putchar(' ');
 		n++;
