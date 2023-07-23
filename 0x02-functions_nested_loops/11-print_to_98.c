@@ -33,7 +33,7 @@ void print_to_98(int n)
 			print_num(n);
 		if (n >= 0 && n < 10)
 			_putchar(n + '0');
-		else
+		if (n > 9)
 			print_num(n);
 		_putchar(',');
 		_putchar(' ');
