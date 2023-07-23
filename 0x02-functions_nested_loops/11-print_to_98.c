@@ -1,47 +1,53 @@
 #include "main.h"
 /**
- * print_to_98 - Entry
- * Description: print from n to 98
+ * print_to_98 - Entry Description: print from n to 98
  * @n: number from function
  */
-void print_to_98(int n)
+void print_num(int n)
 {
-	while (n > 99)
+	if (n < 0)
+	{
+		_putchar('-');
+		n = -(n);
+	}
+	if (n < 99)
 	{
 		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
+	}
+	else
+	{
+		_putchar(n / 100 + '0');
 		_putchar((n % 100) / 10 + '0');
 		_putchar(n % 10 + '0');
+	}
+}
+void print_to_98(int n)
+{
+	while (n < 98)
+	{
+		if (n < 0 && n > -10)
+			_putchar(-(n));
+		if (n < -9 && n > -100)
+			print_num(n);
+		if (n < -99)
+			print_num(n);
 		_putchar(',');
 		_putchar(' ');
-		n--;
+		n++;
 	}
-	while (n <= 99)
+	while (n >= 98)
 	{
-		if (n > -99 && n < -9)
-		{
-			_putchar('-');
-			_putchar(-n / 10 + '0');
-			_putchar(-n % 10 + '0');
-		}
-		else if (n > -10 && n < 0)
-		{
-			_putchar(-n + '0');
-		}
-		else if (n >= 0 && n <= 9)
-		{
-			_putchar(n + '0');
-		}
+		if (n > 99)
+			print_num(n);
 		else
-		{
-			_putchar(n / 10 + '0');
-			_putchar(n % 10 + '0');
-		}
+			print_num(n);
 		if (n != 98)
 		{
 			_putchar(',');
 			_putchar(' ');
 		}
-		n++;
+		n--;
 	}
 	_putchar('\n');
 }
