@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_num - check priting, check if output is 2 digit or 3
- * print_to_98 - Entry Description: print from n to 98
  * @n: number from function
  */
 void print_num(int n)
@@ -27,6 +26,10 @@ void print_num(int n)
 		_putchar(n % 10 + '0');
 	}
 }
+/**
+ * print_to_98 - Entry Description: print from n to 98
+ * @n: number from function
+ */
 void print_to_98(int n)
 {
 	while (n < 98)
