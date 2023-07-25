@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - printing string
- * @str: vaiable for string 
+ * @str: vaiable for string
  */
 void _puts(char *str)
 {
