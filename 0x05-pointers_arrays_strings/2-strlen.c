@@ -5,5 +5,12 @@
  */
 int _strlen(char *s)
 {
-	int c = sizeof(*s) / 8;
+	int i;
+	
+	while ( *s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
 }
