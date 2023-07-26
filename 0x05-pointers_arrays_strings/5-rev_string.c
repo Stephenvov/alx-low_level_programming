@@ -6,9 +6,11 @@
 void rev_string(char *s)
 {
 	char s_rev = s[0];
-	int x = sizeof(s) / sizeof(s[0]);
+	int x;
 	int i;
 
+	while (*s != '\0')
+	       x++;	
 	for (i = 0; i < x; i++)
 	{
 		s_rev = s[i];
