@@ -5,7 +5,8 @@
  */
 void puts_half(char *s)
 {
-	int x = sizeof(s) / sizeof(s[0]);
+	while (*s != '\0')
+		x++;
 	int half = x / 2;
 
 	_putchar(half + '0');
