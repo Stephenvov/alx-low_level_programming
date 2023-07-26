@@ -5,9 +5,12 @@
  */
 void puts_half(char *s)
 {
+	int x;
+	int half;
+
 	while (*s != '\0')
 		x++;
-	int half = x / 2;
+	half = x / 2;
 
 	_putchar(half + '0');
 }
